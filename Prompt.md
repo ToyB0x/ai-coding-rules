@@ -21,6 +21,7 @@
 - cline が 遵守または参考にすべき情報をまとめた .clinerules/ 配下の各種資料
     - 参考例1: .clinerules/README.md (.clinerules配下の全体を俯瞰できるIndex)
     - 参考例2: .clinerules/important-docs.md (前述のプロジェクトの重要な資料の場所を cline が参照しやすいようにまとめたもの)
+    - 参考例3: .clinerules/commit-rules.md (Clineがコミットメッセージを作成する際のルールをまとめたもの)
 
 - cline への便利な指示をまとめた資料
     - 参考例1: .clinerules/prompts/update-docs.md (clineが資料を更新する際の内容やルールを人間にもAIにもわかるようにまとめたもの)
