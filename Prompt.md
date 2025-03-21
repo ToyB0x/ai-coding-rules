@@ -418,3 +418,5 @@ Here are some prompting tips that users have found helpful for working with Clin
 ### 2025/03/21
 
 - [追加] 作成・更新すべき資料一覧の参考例を追加
+- [追加] 「参考資料: Cline Prompting Guide」セクションを追加
+- [変更] 作成・更新のルールを明確化
