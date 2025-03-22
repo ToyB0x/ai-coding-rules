@@ -1,4 +1,4 @@
-# 人とLLMが協働するためのドキュメント作成・管理プロセス
+# Documentation system for people and LLMs to work together
 
 ## 目的
 
