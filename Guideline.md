@@ -913,17 +913,17 @@ templates/
 ### 3. 関連ドキュメントセクション
 各ドキュメントの末尾に関連する他のドキュメントへのリンクを一覧で追加：
 
-```markdown
+\```markdown
 ## 関連ドキュメント
 - [API仕様書](../../reference/api/README.md) - 関連APIの詳細仕様
 - [データモデル](../architecture/data-models.md) - 関連するデータモデルの説明
 - [実装ガイドライン](../implementation/guidelines.md) - 実装時の注意点
-```
+\```
 
 ### 4. インデックスページ
 各ディレクトリには必ずREADME.mdを配置し、そのディレクトリ内のコンテンツの概要と目次を提供：
 
-```markdown
+\```markdown
 # 開発者ガイド
 
 ## 概要
@@ -934,7 +934,7 @@ templates/
 - [アーキテクチャ](./architecture/README.md) - システム設計に関する情報
 - [API仕様](./api/README.md) - APIの詳細仕様
 - [実装ガイドライン](./implementation/README.md) - コーディング規約と実装例
-```
+\```
 
 ## ナビゲーション構造のベストプラクティス
 - 相対パスを一貫して使用し、リポジトリの移動や再構成に強い参照を維持
