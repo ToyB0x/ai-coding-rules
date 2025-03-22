@@ -6,22 +6,22 @@ This documentation system is built around a simplified conceptual model inspired
 
 ```mermaid
 graph TB
-  subgraph Level1["Level 1"]
+  subgraph "Level 1"
     A["Document Guidelines"]
   end
   
-  subgraph Level2["Level 2"]
+  subgraph "Level 2"
     C1["Rule: Naming Conventions"]
     C2["Rule: Formatting"]
     C3["Rule: Update Frequency"]
     C4["Rule: Content Requirements"]
   end
   
-  subgraph Level3["Level 3"]
+  subgraph "Level 3"
     D["Document Validation System (Linter)"]
   end
   
-  subgraph Level4["Level 4"]
+  subgraph "Level 4"
     E1["Document 1"]
     E2["Document 2"]
   end

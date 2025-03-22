@@ -6,22 +6,22 @@
 
 ```mermaid
 graph TB
-  subgraph レベル1["レベル1"]
+  subgraph "レベル 1"
     A["ドキュメントガイドライン"]
   end
   
-  subgraph レベル2["レベル2"]
+  subgraph "レベル 2"
     C1["ルール: 命名規則"]
     C2["ルール: フォーマット"]
     C3["ルール: 更新頻度"]
     C4["ルール: 内容要件"]
   end
   
-  subgraph レベル3["レベル3"]
+  subgraph "レベル 3"
     D["ドキュメント検証システム (Linter)"]
   end
   
-  subgraph レベル4["レベル4"]
+  subgraph "レベル 4"
     E1["ドキュメント1"]
     E2["ドキュメント2"]
   end
@@ -102,11 +102,11 @@ ESLintが定義されたルールと自動チェック/修正を通じてコー�
 
 ```mermaid
 graph TB
-  subgraph レベル1["レベル1"]
+  subgraph "レベル 1"
     A["ドキュメントガイドライン"]
   end
   
-  subgraph レベル2["レベル2"]
+  subgraph "レベル 2"
     B1["ルール: 種別定義"]
     B2["ルール: 配置構造"]
     B3["ルール: フォーマット"]
@@ -115,11 +115,11 @@ graph TB
     B6["ルール: メタルール"]
   end
   
-  subgraph レベル3["レベル3"]
+  subgraph "レベル 3"
     D["ドキュメント検証システム (Linter)"]
   end
   
-  subgraph レベル4["レベル4"]
+  subgraph "レベル 4"
     C1["ドキュメント1"]
     C2["ドキュメント2"]
   end
