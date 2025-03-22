@@ -11,17 +11,12 @@ graph TD
   A --> C3["Rule: Update Frequency"]
   A --> C4["Rule: Content Requirements"]
   
-  D["Document Validation System (Linter)"] -.-> |"Check & Apply"| C1
-  D -.-> |"Check & Apply"| C2
-  D -.-> |"Check & Apply"| C3
-  D -.-> |"Check & Apply"| C4
+  D["Document Validation System (Linter)"] -.-> |"References"| C1
+  D -.-> |"References"| C2
+  D -.-> |"References"| C3
+  D -.-> |"References"| C4
   
-  C1 --> E1["Document"]
-  C2 --> E1
-  C3 --> E1
-  C4 --> E1
-  
-  D -.-> |"Validate & Fix"| E1
+  D -.-> |"Validate & Fix using Rules"| E1["Document"]
   
   style A fill:#f9f,stroke:#333,stroke-width:2px
   style C1 fill:#bfb,stroke:#333,stroke-width:1px
