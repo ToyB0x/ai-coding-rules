@@ -4,31 +4,46 @@
 
 The documentation system usage flow consists of the following 5 steps:
 
-1. **Create Documentation Guidelines**: Define the ideal state declaratively.
-   - Understanding best practices
-   - Understanding current project characteristics
-   - Creating documentation guidelines
-   - Reviewing existing guidelines for improvement
+<details>
+<summary>1. <b>Create Documentation Guidelines</b>: Define the ideal state declaratively.</summary>
 
-2. **Gap Analysis**: Analyze the gap between the established guidelines and the current state.
-   - Understanding the documentation guidelines
-   - Understanding the current project state
-   - Analyzing the gaps between them
+- Understanding best practices
+- Understanding current project characteristics
+- Creating documentation guidelines
+- Reviewing existing guidelines for improvement
+</details>
 
-3. **Implementation Plan Creation**: Plan the steps to fill the identified gaps.
-   - Understanding the gaps
-   - Planning improvement steps
-   - Prioritizing and implementing in stages
+<details>
+<summary>2. <b>Gap Analysis</b>: Analyze the gap between the established guidelines and the current state.</summary>
 
-4. **Execute Implementation Plan**: Implement improvements based on the plan.
-   - Understanding the implementation plan
-   - Understanding the current project state
-   - Executing improvements
+- Understanding the documentation guidelines
+- Understanding the current project state
+- Analyzing the gaps between them
+</details>
 
-5. **Regular Review and Updates**: Update or reapply guidelines according to project changes.
-   - Understanding current guidelines
-   - Improving and adjusting guidelines
-   - Repeating from step 2 as needed
+<details>
+<summary>3. <b>Implementation Plan Creation</b>: Plan the steps to fill the identified gaps.</summary>
+
+- Understanding the gaps
+- Planning improvement steps
+- Prioritizing and implementing in stages
+</details>
+
+<details>
+<summary>4. <b>Execute Implementation Plan</b>: Implement improvements based on the plan.</summary>
+
+- Understanding the implementation plan
+- Understanding the current project state
+- Executing improvements
+</details>
+
+<details>
+<summary>5. <b>Regular Review and Updates</b>: Update or reapply guidelines according to project changes.</summary>
+
+- Understanding current guidelines
+- Improving and adjusting guidelines
+- Repeating from step 2 as needed
+</details>
 
 ```mermaid
 graph TD
