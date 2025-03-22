@@ -5,19 +5,39 @@
 This documentation system is built around a simplified conceptual model inspired by software engineering practices, particularly ESLint and similar linting tools. The model consists of three key components that work together to ensure high-quality documentation.
 
 ```mermaid
-graph TD
-  A["Document Guidelines"] --> C1["Rule: Naming Conventions"]
-  A --> C2["Rule: Formatting"]
-  A --> C3["Rule: Update Frequency"]
-  A --> C4["Rule: Content Requirements"]
+graph TB
+  subgraph Level1["Level 1"]
+    A["Document Guidelines"]
+  end
   
-  D["Document Validation System (Linter)"] -.-> |"References"| C1
+  subgraph Level2["Level 2"]
+    C1["Rule: Naming Conventions"]
+    C2["Rule: Formatting"]
+    C3["Rule: Update Frequency"]
+    C4["Rule: Content Requirements"]
+  end
+  
+  subgraph Level3["Level 3"]
+    D["Document Validation System (Linter)"]
+  end
+  
+  subgraph Level4["Level 4"]
+    E1["Document 1"]
+    E2["Document 2"]
+  end
+  
+  A --> C1
+  A --> C2
+  A --> C3
+  A --> C4
+  
+  D -.-> |"References"| C1
   D -.-> |"References"| C2
   D -.-> |"References"| C3
   D -.-> |"References"| C4
   
-  D -.-> |"Validate & Fix using Rules"| E1["Document 1"]
-  D -.-> |"Validate & Fix using Rules"| E2["Document 2"]
+  D -.-> |"Validate & Fix using Rules"| E1
+  D -.-> |"Validate & Fix using Rules"| E2
   
   style A fill:#f9f,stroke:#333,stroke-width:2px
   style C1 fill:#bfb,stroke:#333,stroke-width:1px
