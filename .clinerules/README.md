@@ -1,7 +1,7 @@
 # .clinerules ディレクトリ
 
-更新日: 2025/03/22
-確認日: 2025/03/22
+更新日: 2025/03/23
+確認日: 2025/03/23
 
 ## 目的
 
@@ -13,8 +13,8 @@ AIがプロジェクトの特性を理解し、一貫性のあるコードや文
 ```
 .clinerules/
 ├── README.md                       # このファイル（ディレクトリの概要）
-├── prompt-changelog-guide.md       # Guideline.mdファイル更新時のChangelogガイドライン
-├── prompt-editing-guidelines.md    # Guideline.mdファイル編集の方針と注意点
+├── guideline-changelog-guide.md    # Guideline.mdファイル更新時のChangelogガイドライン
+├── guideline-edit-rule.md          # Guideline.mdファイル編集の方針と注意点
 └── commit-rules.md                 # コミット提案とメッセージ作成のルール
 ```
 
@@ -25,7 +25,7 @@ AIがプロジェクトの特性を理解し、一貫性のあるコードや文
 `.clinerules`ディレクトリの概要と含まれるファイルの説明を提供するインデックスファイルです。
 AIがこのディレクトリの目的とコンテンツを理解するための最初の参照点として機能します。
 
-### prompt-changelog-guide.md
+### guideline-changelog-guide.md
 
 Guideline.mdファイル更新時のChangelogの記載方法に関するガイドラインを提供します。
 複数リポジトリや外部ユーザー（人間とLLM）がGuideline.mdの変更履歴を効率的に把握できるようにするための標準を定義しています。
@@ -35,7 +35,7 @@ Guideline.mdファイル更新時のChangelogの記載方法に関するガイ�
 - 効果的な書き方（基本原則、Git差分活用法、変更種類の表記法）
 - 書式と形式（マークダウン活用法、日付形式、リスト形式）
 
-### prompt-editing-guidelines.md
+### guideline-edit-rule.md
 
 Guideline.mdファイルの編集方針と注意点を定義するガイドラインです。
 Guideline.mdの特別な設計意図（単一ファイル構造）を尊重した編集方法を説明しています。
@@ -67,12 +67,16 @@ AIはこれらのガイドラインに基づいてコードや文書を生成し
 
 ## Changelog
 
+### 2025/03/23
+- [更新] README.mdのファイル名と参照を実際のファイル名に合わせて修正
+- [更新] 更新日・確認日を2025/03/23に更新
+
 ### 2025/03/22
-- [追加] prompt-editing-guidelines.mdファイル作成（Guideline.md編集の方針と注意点）
+- [追加] guideline-edit-rule.mdファイル作成（Guideline.md編集の方針と注意点）
 - [更新] README.mdを新規ファイル情報で更新
 - [追加] commit-rules.mdファイル作成（コミット提案とメッセージ作成のルール）
 - [更新] README.mdをcommit-rules.md情報で更新
 
 ### 2025/03/21
 - [追加] 初版README.mdファイル作成
-- [追加] prompt-changelog-guide.mdファイル作成（Guideline.mdファイル更新時のChangelogガイドライン）
+- [追加] guideline-changelog-guide.mdファイル作成（Guideline.mdファイル更新時のChangelogガイドライン）
