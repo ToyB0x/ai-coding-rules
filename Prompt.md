@@ -31,7 +31,41 @@
     - ドキュメントの内容を扱うもの
     - ドキュメントルールを扱うメタ的なドキュメントルール(ドキュメントルール自体が、ある種のドキュメントである)
 
-TO: Cline, ここにドキュメンテーションガイドライン、ドキュメントルール、ドキュメントの関係性をMermaidで図にして
+```mermaid
+graph TD
+  A[ドキュメンテーションガイドライン] --> B1[ドキュメントルール1: 種別定義]
+  A --> B2[ドキュメントルール2: 配置構造]
+  A --> B3[ドキュメントルール3: フォーマット]
+  A --> B4[ドキュメントルール4: 命名規則]
+  A --> B5[ドキュメントルール5: 内容規則]
+  A --> B6[ドキュメントルール6: メタルール]
+  
+  B1 --> C1[ドキュメント1]
+  B1 --> C2[ドキュメント2]
+  B2 --> C1
+  B2 --> C2
+  B3 --> C1
+  B3 --> C2
+  B4 --> C1
+  B4 --> C2
+  B5 --> C1
+  B5 --> C2
+  B6 --> B1
+  B6 --> B2
+  B6 --> B3
+  B6 --> B4
+  B6 --> B5
+  
+  style A fill:#f9f,stroke:#333,stroke-width:2px
+  style B1 fill:#bbf,stroke:#333,stroke-width:1px
+  style B2 fill:#bbf,stroke:#333,stroke-width:1px
+  style B3 fill:#bbf,stroke:#333,stroke-width:1px
+  style B4 fill:#bbf,stroke:#333,stroke-width:1px
+  style B5 fill:#bbf,stroke:#333,stroke-width:1px
+  style B6 fill:#bbf,stroke:#333,stroke-width:1px
+  style C1 fill:#bfb,stroke:#333,stroke-width:1px
+  style C2 fill:#bfb,stroke:#333,stroke-width:1px
+```
 
 ## 利用フロー
 
@@ -328,7 +362,7 @@ TO: Cline, ここにドキュメンテーションガイドライン、ドキュ
     - AIのセットアップが適切に行われていることを確認する
   ## 設定ファイルの存在確認
   - Clineを使っている場合は、Clineの設定ファイルが存在することを確認する
-　- Roo Codeを使っている場合は、Roo Codeの設定ファイルが存在することを確認する
+  - Roo Codeを使っている場合は、Roo Codeの設定ファイルが存在することを確認する
 
   ## 設定ファイルの内容確認
   - Clineを使っている場合は、Clineの設定ファイルの内容が正しいことを確認する
