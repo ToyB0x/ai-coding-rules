@@ -15,6 +15,8 @@ graph TB
     C2["Rule: Formatting"]
     C3["Rule: Update Frequency"]
     C4["Rule: Content Requirements"]
+    C5["Rule: Document Types"]
+    C6["Rule: Structure"]
   end
   
   subgraph "Level 3"
@@ -30,11 +32,15 @@ graph TB
   A --> C2
   A --> C3
   A --> C4
+  A --> C5
+  A --> C6
   
   D -.-> |"References"| C1
   D -.-> |"References"| C2
   D -.-> |"References"| C3
   D -.-> |"References"| C4
+  D -.-> |"References"| C5
+  D -.-> |"References"| C6
   
   D -.-> |"Validate & Fix using Rules"| E1
   D -.-> |"Validate & Fix using Rules"| E2
@@ -44,6 +50,8 @@ graph TB
   style C2 fill:#bfb,stroke:#333,stroke-width:1px
   style C3 fill:#bfb,stroke:#333,stroke-width:1px
   style C4 fill:#bfb,stroke:#333,stroke-width:1px
+  style C5 fill:#bfb,stroke:#333,stroke-width:1px
+  style C6 fill:#bfb,stroke:#333,stroke-width:1px
   style D fill:#fbb,stroke:#333,stroke-width:2px
   style E1 fill:#ddd,stroke:#333,stroke-width:1px
   style E2 fill:#ddd,stroke:#333,stroke-width:1px
@@ -58,7 +66,7 @@ graph TB
 
 2. **Document Rules** (Level 2)
    - Specific, verifiable individual rules derived from guidelines
-   - Clear criteria for naming conventions, formatting, update frequency, etc.
+   - Clear criteria for naming conventions, formatting, update frequency, content requirements, document types, and structure
    - Example: "All markdown files must include an update date at the top and contain a table of contents"
 
 3. **Document Validation System (Linter)** (Level 3)
@@ -76,7 +84,7 @@ This conceptual model parallels common software engineering tools and practices:
 
 Just as ESLint enforces code quality through defined rules and automated checking/fixing, our Document Validation System ensures documentation quality through similar mechanisms, leveraging LLMs for more intelligent and context-aware validation.
 
-## STEP FLOW
+## Step Flow
 
 The documentation system usage flow consists of the following 5 steps:
 
