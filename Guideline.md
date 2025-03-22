@@ -974,24 +974,24 @@ LLMを活用したドキュメント検証と管理のためのコマンド体�
 ### コマンド使用例
 
 #### 依存関係の分析
-```
+\```
 @doc analyze-dependencies docs/guide/developer/ --depth=2 --format=mermaid
-```
+\```
 
 #### メタデータの検証
-```
+\```
 @doc validate-metadata docs/product/features/ --fix --level=warning
-```
+\```
 
 #### 孤立ドキュメントの検出
-```
+\```
 @doc find-orphans docs/ --type=both --exclude="README.md$"
-```
+\```
 
 #### 索引の生成
-```
+\```
 @doc generate-index docs/guide/developer/ --type=toc --output=docs/guide/developer/index.md
-```
+\```
 
 ## 検証項目
 - **メタデータの完全性**: 必須メタデータフィールドの存在確認
