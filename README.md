@@ -6,22 +6,22 @@ This documentation system is built around a simplified conceptual model inspired
 
 ```mermaid
 graph TD
-  A[Document Principles] --> C1[Rule: Naming Conventions]
-  A --> C2[Rule: Formatting]
-  A --> C3[Rule: Update Frequency]
-  A --> C4[Rule: Content Requirements]
+  A["Document Principles"] --> C1["Rule: Naming Conventions"]
+  A --> C2["Rule: Formatting"]
+  A --> C3["Rule: Update Frequency"]
+  A --> C4["Rule: Content Requirements"]
   
-  D[Document Validation System (Linter)] -.-> |Check & Apply| C1
-  D -.-> |Check & Apply| C2
-  D -.-> |Check & Apply| C3
-  D -.-> |Check & Apply| C4
+  D["Document Validation System (Linter)"] -.-> |"Check & Apply"| C1
+  D -.-> |"Check & Apply"| C2
+  D -.-> |"Check & Apply"| C3
+  D -.-> |"Check & Apply"| C4
   
-  C1 --> E1[Document]
+  C1 --> E1["Document"]
   C2 --> E1
   C3 --> E1
   C4 --> E1
   
-  D -.-> |Validate & Fix| E1
+  D -.-> |"Validate & Fix"| E1
   
   style A fill:#f9f,stroke:#333,stroke-width:2px
   style C1 fill:#bfb,stroke:#333,stroke-width:1px
@@ -106,11 +106,11 @@ The documentation system usage flow consists of the following 5 steps:
 
 ```mermaid
 graph TD
-    A[1\. Create Documentation Guidelines] --> B[2\. Gap Analysis]
-    B --> C[3\. Implementation Plan Creation]
-    C --> D[4\. Execute Implementation Plan]
-    D --> E[5\. Regular Review and Updates]
-    E -->|as needed| B
+    A["1. Create Documentation Guidelines"] --> B["2. Gap Analysis"]
+    B --> C["3. Implementation Plan Creation"]
+    C --> D["4. Execute Implementation Plan"]
+    D --> E["5. Regular Review and Updates"]
+    E -->|"as needed"| B
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style B fill:#bbf,stroke:#333,stroke-width:1px
     style C fill:#bbf,stroke:#333,stroke-width:1px
