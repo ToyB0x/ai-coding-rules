@@ -16,7 +16,8 @@ graph TD
   D -.-> |"参照"| C3
   D -.-> |"参照"| C4
   
-  D -.-> |"ルールを使って検証 & 修正"| E1["ドキュメント"]
+  D -.-> |"ルールを使って検証 & 修正"| E1["ドキュメント1"]
+  D -.-> |"ルールを使って検証 & 修正"| E2["ドキュメント2"]
   
   style A fill:#f9f,stroke:#333,stroke-width:2px
   style C1 fill:#bfb,stroke:#333,stroke-width:1px
@@ -25,6 +26,7 @@ graph TD
   style C4 fill:#bfb,stroke:#333,stroke-width:1px
   style D fill:#fbb,stroke:#333,stroke-width:2px
   style E1 fill:#ddd,stroke:#333,stroke-width:1px
+  style E2 fill:#ddd,stroke:#333,stroke-width:1px
 ```
 
 ### 主要コンポーネント

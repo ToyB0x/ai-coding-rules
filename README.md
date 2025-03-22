@@ -16,7 +16,8 @@ graph TD
   D -.-> |"References"| C3
   D -.-> |"References"| C4
   
-  D -.-> |"Validate & Fix using Rules"| E1["Document"]
+  D -.-> |"Validate & Fix using Rules"| E1["Document 1"]
+  D -.-> |"Validate & Fix using Rules"| E2["Document 2"]
   
   style A fill:#f9f,stroke:#333,stroke-width:2px
   style C1 fill:#bfb,stroke:#333,stroke-width:1px
@@ -25,6 +26,7 @@ graph TD
   style C4 fill:#bfb,stroke:#333,stroke-width:1px
   style D fill:#fbb,stroke:#333,stroke-width:2px
   style E1 fill:#ddd,stroke:#333,stroke-width:1px
+  style E2 fill:#ddd,stroke:#333,stroke-width:1px
 ```
 
 ### Key Components
