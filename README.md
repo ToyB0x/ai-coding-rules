@@ -47,10 +47,10 @@ The documentation system usage flow consists of the following 5 steps:
 
 ```mermaid
 graph TD
-    A[1. Create Documentation Guidelines] --> B[2. Gap Analysis]
-    B --> C[3. Implementation Plan Creation]
-    C --> D[4. Execute Implementation Plan]
-    D --> E[5. Regular Review and Updates]
+    A[1\. Create Documentation Guidelines] --> B[2\. Gap Analysis]
+    B --> C[3\. Implementation Plan Creation]
+    C --> D[4\. Execute Implementation Plan]
+    D --> E[5\. Regular Review and Updates]
     E -->|as needed| B
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style B fill:#bbf,stroke:#333,stroke-width:1px
