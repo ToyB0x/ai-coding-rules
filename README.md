@@ -52,7 +52,6 @@ graph TD
     C --> D[4. Execute Implementation Plan]
     D --> E[5. Regular Review and Updates]
     E -->|as needed| B
-    
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style B fill:#bbf,stroke:#333,stroke-width:1px
     style C fill:#bbf,stroke:#333,stroke-width:1px
