@@ -13,8 +13,8 @@ AIがプロジェクトの特性を理解し、一貫性のあるコードや文
 ```
 .clinerules/
 ├── README.md                       # このファイル（ディレクトリの概要）
-├── prompt-changelog-guide.md       # Prompt.mdファイル更新時のChangelogガイドライン
-├── prompt-editing-guidelines.md    # Prompt.mdファイル編集の方針と注意点
+├── prompt-changelog-guide.md       # Guideline.mdファイル更新時のChangelogガイドライン
+├── prompt-editing-guidelines.md    # Guideline.mdファイル編集の方針と注意点
 └── commit-rules.md                 # コミット提案とメッセージ作成のルール
 ```
 
@@ -27,8 +27,8 @@ AIがこのディレクトリの目的とコンテンツを理解するための
 
 ### prompt-changelog-guide.md
 
-Prompt.mdファイル更新時のChangelogの記載方法に関するガイドラインを提供します。
-複数リポジトリや外部ユーザー（人間とLLM）がPrompt.mdの変更履歴を効率的に把握できるようにするための標準を定義しています。
+Guideline.mdファイル更新時のChangelogの記載方法に関するガイドラインを提供します。
+複数リポジトリや外部ユーザー（人間とLLM）がGuideline.mdの変更履歴を効率的に把握できるようにするための標準を定義しています。
 
 主な内容：
 - Changelogを書く目的（複数リポジトリとユーザー向け、LLM向け）
@@ -37,11 +37,11 @@ Prompt.mdファイル更新時のChangelogの記載方法に関するガイド�
 
 ### prompt-editing-guidelines.md
 
-Prompt.mdファイルの編集方針と注意点を定義するガイドラインです。
-Prompt.mdの特別な設計意図（単一ファイル構造）を尊重した編集方法を説明しています。
+Guideline.mdファイルの編集方針と注意点を定義するガイドラインです。
+Guideline.mdの特別な設計意図（単一ファイル構造）を尊重した編集方法を説明しています。
 
 主な内容：
-- Prompt.mdの基本設計原則（単一ファイル構造の重要性）
+- Guideline.mdの基本設計原則（単一ファイル構造の重要性）
 - 編集における具体的な注意点（外部ファイル参照の禁止、完結性の確保など）
 - 編集時のチェックリスト
 - 編集例と推奨表現
@@ -68,11 +68,11 @@ AIはこれらのガイドラインに基づいてコードや文書を生成し
 ## Changelog
 
 ### 2025/03/22
-- [追加] prompt-editing-guidelines.mdファイル作成（Prompt.md編集の方針と注意点）
+- [追加] prompt-editing-guidelines.mdファイル作成（Guideline.md編集の方針と注意点）
 - [更新] README.mdを新規ファイル情報で更新
 - [追加] commit-rules.mdファイル作成（コミット提案とメッセージ作成のルール）
 - [更新] README.mdをcommit-rules.md情報で更新
 
 ### 2025/03/21
 - [追加] 初版README.mdファイル作成
-- [追加] prompt-changelog-guide.mdファイル作成（Prompt.mdファイル更新時のChangelogガイドライン）
+- [追加] prompt-changelog-guide.mdファイル作成（Guideline.mdファイル更新時のChangelogガイドライン）

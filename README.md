@@ -101,19 +101,19 @@ Cline または Roo Code に以下を指示して下さい
 
 ```bash
 # Step1: ドキュメンテーションガイドラインの策定
-@https://raw.githubusercontent.com/ToyB0x/ai-coding-rules/refs/heads/main/Prompt.md の内容を参考に Step1 のドキュメンテーションガイドラインを策定して
+@https://raw.githubusercontent.com/ToyB0x/ai-coding-rules/refs/heads/main/Guideline.md の内容を参考に Step1 のドキュメンテーションガイドラインを策定して
 
 # Step2: 現状とのギャップ分析
-@https://raw.githubusercontent.com/ToyB0x/ai-coding-rules/refs/heads/main/Prompt.md の内容を参考に Step2 のドキュメンテーションガイドラインの現状とのギャップ分析を行って
+@https://raw.githubusercontent.com/ToyB0x/ai-coding-rules/refs/heads/main/Guideline.md の内容を参考に Step2 のドキュメンテーションガイドラインの現状とのギャップ分析を行って
 
 # Step3: ドキュメンテーションガイドラインの適用計画の策定
-@https://raw.githubusercontent.com/ToyB0x/ai-coding-rules/refs/heads/main/Prompt.md の内容を参考に Step3 のドキュメンテーションガイドラインの適用計画を策定して
+@https://raw.githubusercontent.com/ToyB0x/ai-coding-rules/refs/heads/main/Guideline.md の内容を参考に Step3 のドキュメンテーションガイドラインの適用計画を策定して
 
 # Step4: ドキュメンテーションガイドラインの適用計画の実行
-@https://raw.githubusercontent.com/ToyB0x/ai-coding-rules/refs/heads/main/Prompt.md の内容を参考に Step4 のドキュメンテーションガイドラインの適用計画を実行して
+@https://raw.githubusercontent.com/ToyB0x/ai-coding-rules/refs/heads/main/Guideline.md の内容を参考に Step4 のドキュメンテーションガイドラインの適用計画を実行して
 
 # Step5: 定期的な検査と更新
-@https://raw.githubusercontent.com/ToyB0x/ai-coding-rules/refs/heads/main/Prompt.md の内容を参考に Step5 のドキュメンテーションガイドラインの定期的な検査と更新を行って
+@https://raw.githubusercontent.com/ToyB0x/ai-coding-rules/refs/heads/main/Guideline.md の内容を参考に Step5 のドキュメンテーションガイドラインの定期的な検査と更新を行って
 ```
 
 ## Memo
