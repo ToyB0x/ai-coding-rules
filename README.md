@@ -51,17 +51,17 @@ graph TB
 
 ### Key Components
 
-1. **Document Principles** (Top-level concept)
+1. **Document Guidelines** (Level 1)
    - Defines the fundamental purpose, values, and long-term vision for document management
    - Answers "why" and "for what purpose" documents are managed
    - Example: "All documentation must be maintained in a format understandable by both humans and LLMs, kept up-to-date, and allow quick access to necessary information"
 
-2. **Document Rules** (Bottom-level concept)
-   - Specific, verifiable individual rules derived from principles
+2. **Document Rules** (Level 2)
+   - Specific, verifiable individual rules derived from guidelines
    - Clear criteria for naming conventions, formatting, update frequency, etc.
    - Example: "All markdown files must include an update date at the top and contain a table of contents"
 
-3. **Document Validation System (Linter)** (Cross-cutting concept)
+3. **Document Validation System (Linter)** (Level 3)
    - Mechanism to check rule compliance and enforce rules when necessary
    - Utilizes LLMs for intelligent validation and automated fixes
    - Example: A "Document Linter" checks all markdown files before commit and reports or automatically fixes rule violations
