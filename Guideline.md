@@ -1,4 +1,4 @@
-# Documentation system for people and LLMs to work together
+# Documentation System for People and LLMs to Work Together
 
 ## 目的
 

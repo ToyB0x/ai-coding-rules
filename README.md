@@ -1,5 +1,50 @@
 # Documentation System for People and LLMs to Work Together
 
+## STEP FLOW
+
+The documentation system usage flow consists of the following 5 steps:
+
+1. **Create Documentation Guidelines**: Define the ideal state declaratively.
+   - Understanding best practices
+   - Understanding current project characteristics
+   - Creating documentation guidelines
+   - Reviewing existing guidelines for improvement
+
+2. **Gap Analysis**: Analyze the gap between the established guidelines and the current state.
+   - Understanding the documentation guidelines
+   - Understanding the current project state
+   - Analyzing the gaps between them
+
+3. **Implementation Plan Creation**: Plan the steps to fill the identified gaps.
+   - Understanding the gaps
+   - Planning improvement steps
+   - Prioritizing and implementing in stages
+
+4. **Execute Implementation Plan**: Implement improvements based on the plan.
+   - Understanding the implementation plan
+   - Understanding the current project state
+   - Executing improvements
+
+5. **Regular Review and Updates**: Update or reapply guidelines according to project changes.
+   - Understanding current guidelines
+   - Improving and adjusting guidelines
+   - Repeating from step 2 as needed
+
+```mermaid
+graph TD
+    A[1. Create Documentation Guidelines] --> B[2. Gap Analysis]
+    B --> C[3. Implementation Plan Creation]
+    C --> D[4. Execute Implementation Plan]
+    D --> E[5. Regular Review and Updates]
+    E -->|as needed| B
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:1px
+    style C fill:#bbf,stroke:#333,stroke-width:1px
+    style D fill:#bbf,stroke:#333,stroke-width:1px
+    style E fill:#bbf,stroke:#333,stroke-width:1px
+```
+
 ## How to Use
 
 Use the following commands with Cline or Roo Code:
