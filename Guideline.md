@@ -268,13 +268,14 @@ docs/
 │   ├── README.md                     # ドキュメントルール一覧と概要
 │   ├── ai/                           # AI関連ドキュメントルール
 │   │   ├── README.md                 # AI関連ルールの概要
-│   │   ├── config/                   # AIの設定ファイル確認
-│   │   ├── minimum-change/           # 最小変更ルール
-│   │   ├── ask/                      # 質問ルール
-│   │   ├── commit/                   # コミットメッセージルール
+│   │   ├── config.md                 # AIの設定ファイル確認
+│   │   ├── minimum-change.md         # 最小変更ルール
+│   │   ├── ask.md                    # 質問ルール
+│   │   ├── commit.md                 # コミットメッセージルール
 │   │   ├── tools/                    # ツール活用ルール
-│   │   ├── maintenance/              # ドキュメント更新ルール
-│   │   └── preparation/              # AI利用準備ルール
+│   │   │    └── repomix.md           # Repomix利用ルール
+│   │   ├── maintenance.md            # ドキュメント更新ルール
+│   │   └── preparation.md            # AI利用準備ルール
 │   ├── guide/
 │   │   ├── developer/                # 開発者向けドキュメントルール
 │   │   │   ├── code/                 # コードファイルルール
@@ -346,6 +347,7 @@ docs/
 #### 注意事項
 - ルートディレクトリのREADMEからリンクさせる
 - .clinerules.md などLLM向けファイルにもリンクを貼る
+- フォルダ内にREADME.mdしか配置しない場合は階層を浅くするために、上階層に[rule-name].mdとして作成する
 
 ### ドキュメントルール例: 開発フローの詳細定義
 #### 配置場所
