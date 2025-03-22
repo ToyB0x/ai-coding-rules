@@ -6,7 +6,7 @@ This documentation system is built around a simplified conceptual model inspired
 
 ```mermaid
 graph TD
-  A["Document Principles"] --> C1["Rule: Naming Conventions"]
+  A["Document Guidelines"] --> C1["Rule: Naming Conventions"]
   A --> C2["Rule: Formatting"]
   A --> C3["Rule: Update Frequency"]
   A --> C4["Rule: Content Requirements"]
@@ -53,7 +53,7 @@ graph TD
 
 This conceptual model parallels common software engineering tools and practices:
 
-1. **Document Principles** ≈ Architecture principles/design philosophy
+1. **Document Guidelines** ≈ Architecture principles/design philosophy
 2. **Document Rules** ≈ Coding conventions/ESLint rules
 3. **Document Validation System** ≈ ESLint (with `--check` and `--fix` functionality)
 
