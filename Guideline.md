@@ -324,8 +324,10 @@ graph TB
         │    └── README.md                # KPI・OKR等の指標
         └── roadmaps/                     # 未来の機能計画
             ├── README.md                 # ロードマップ概要
-            └── [予定機能名]/             # 予定機能の詳細計画
+            └── [予定機能名]/              # 予定機能の詳細計画 (開発が終わってリリースされた昨日はfeatures/に移動・統合されroadmap/からは削除)
                 ├── README.md             # 概要とドキュメント構造
+                ├── PLAN.md               # 機能開発の実行計画
+                ├── PROGRESS.md           # 機能開発の実行計画の進捗状況(PLAN.mdと統合して1ファイルにしても良い)
                 ├── requirements/         # 非エンジニア向け
                 │   ├── README.md         # 要件ドキュメントガイド
                 │   ├── PRD.md            # 製品要件定義書
