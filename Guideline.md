@@ -1042,7 +1042,7 @@ packages/ディレクトリ配下の全てのドキュメントに対して、�
 - LLMによるLLM評価アプローチを確立し、客観的な検証を実現する
 
 ## ファイル構成
-```
+\```
 docs/rules/self-check/
 ├── README.md                 # 本ドキュメント（検証システムの説明）
 └── test/                     # テストケース用ディレクトリ
@@ -1052,7 +1052,7 @@ docs/rules/self-check/
     └── api-doc/              # API仕様書の検証用ファイル
         ├── correct.md        # 正しい形式のAPI仕様書
         └── wrong.md          # 間違った形式のAPI仕様書
-```
+\```
 
 ## ドキュメントルール理解度の検証手順
 
@@ -1191,24 +1191,24 @@ POST /api/auth/login
 | Accept | 任意 | application/json |
 
 ### ボディ
-```json
+\```json
 {
   "username": "string",  // メールアドレスまたはユーザー名
   "password": "string",  // 8文字以上の英数字記号
   "remember_me": boolean // 省略可、デフォルトはfalse
 }
-```
+\```
 
 ## レスポンス
 ### 成功時 (200 OK)
-```json
+\```json
 {
   "access_token": "string",  // JWT形式のアクセストークン
   "refresh_token": "string", // リフレッシュトークン
   "expires_in": 3600,        // アクセストークンの有効期限（秒）
   "token_type": "Bearer"     // トークンタイプ
 }
-```
+\```
 
 ### エラー時
 | ステータスコード | 説明 |
@@ -1219,11 +1219,11 @@ POST /api/auth/login
 | 500 Internal Server Error | サーバーエラー |
 
 ## 使用例
-```bash
+\```bash
 curl -X POST https://api.example.com/api/v2/auth/login \
   -H "Content-Type: application/json" \
   -d '{"username": "user@example.com", "password": "secureP@ss123"}'
-```
+\```
 
 ## セキュリティ考慮事項
 - レート制限: 同一IPアドレスからの連続失敗は10回まで
